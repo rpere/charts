@@ -48,7 +48,7 @@ spec:
         # scope.weave.works account:
         # - --probe.token=foo
         securityContext:
-          privileged: true
+          privileged: false
         volumeMounts:
         - name: docker-sock
           mountPath: /var/run/docker.sock
